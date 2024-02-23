@@ -1,6 +1,11 @@
-export default function InfoBox ({information}) {
- return <section className="p-10 border border-x-emerald-600">
-    <h2 >{information}</h2>
+interface InfoBoxProps {
+    information: string;
+    id: string;
+}
+
+export default function InfoBox ({information, id}: InfoBoxProps) {
+ return <section className="p-10 border-lime-90">
+    <h2 id={id} className=" text-2xl" >{information}</h2>
     </section>
  
 }
