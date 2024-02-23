@@ -16,18 +16,12 @@ const welcomeText = "Welcome to my page"
 
       {/* Left Hand Intro */}
       <Header />
-      <InfoBox information={welcomeText}/>
-<InfoBox information="boop" id="boop" />
-<InfoBox information="boop" id="boop" />
-<InfoBox information="boop" id="boop" />
-<InfoBox information="boop" id="boop" />
-<InfoBox information="boop" id="boop" />
-<InfoBox information="boop" id="boop" />
-<InfoBox information="boop" id="boop" />
-<InfoBox information="boop" id="boop" />
-<InfoBox information="boop" id="boop" />
-<InfoBox information="boop" id="boop" />
-<InfoBox information="boop" id="here" />
+      <InfoBox information={welcomeText} id="welcome"/>
+<InfoBox information="Start" id="start" />
+<InfoBox information="About Me" id="about" />
+<InfoBox information="Project Highlights" id="projects" />
+<InfoBox information="Work Experience" id="experience" />
+<InfoBox information="Contact Nico" id="contact" />
 
     </main>
   );

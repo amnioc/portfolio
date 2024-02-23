@@ -4,7 +4,7 @@ interface InfoBoxProps {
 }
 
 export default function InfoBox ({information, id}: InfoBoxProps) {
- return <section className="p-10 border-lime-90">
+ return <section className="p-10 m-1 border-solid border-pink-700 border-2">
     <h2 id={id} className=" text-2xl" >{information}</h2>
     </section>
  
