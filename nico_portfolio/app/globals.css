@@ -31,3 +31,8 @@ body {
     text-wrap: balance;
   } */
 }
+
+:link {
+    padding: 3px;
+    color: purple
+}
