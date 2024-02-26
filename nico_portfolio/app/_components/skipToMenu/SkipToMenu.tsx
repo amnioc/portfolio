@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function SkipToMenu () {
     return (
-    <nav className=" basis-6 grow ">
+    <nav className=" border-2 border-black flex flex-1">
             <Link href="#top">Home</Link>
             <Link href="#about">About</Link>
             <Link href="#projects">Projects</Link>

@@ -8,11 +8,15 @@ export default function Home() {
 
 const welcomeText = "Welcome to my page"
   return (
-
-    <main className="flex min-h-screen flex-col p-24 bg-slate-200">
-      {/* NavBar */}
+<>
+    <header className="flex  bg-slate-200 ">
       <Logo />
+
       <SkipToMenu />
+    </header>
+    <main className="flex min-h-screen flex-col p-24 bg-slate-200 ">
+      {/* NavBar */}
+      
 
       {/* Left Hand Intro */}
       <Header />
@@ -24,5 +28,7 @@ const welcomeText = "Welcome to my page"
 <InfoBox information="Contact Nico" id="contact" />
 
     </main>
+
+    </>
   );
 }
