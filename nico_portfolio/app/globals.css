@@ -41,3 +41,15 @@ body {
     text-align: center;
     align-self: center;
 }
+
+#welcomeLineOne {
+  color: blue;
+}
+
+#welcomeLineTwo {
+  color: purple;
+}
+
+#welcomeLineThree {
+  color: green;
+}
