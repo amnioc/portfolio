@@ -1,12 +1,12 @@
 
 import Header from "./_components/header/Header";
 import InfoBox from "./_components/info/InfoBox";
+import  {welcomeText}  from "./_components/info/sectionText";
 import Logo from "./_components/logo/Logo";
 import SkipToMenu from "./_components/skipToMenu/SkipToMenu";
 
 export default function Home() {
 
-const welcomeText = "Welcome to my page"
   return (
 <>
     <header className="bg-slate-200  flex  ">
