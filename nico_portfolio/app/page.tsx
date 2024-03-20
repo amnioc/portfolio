@@ -7,6 +7,7 @@ import Header from "./_components/header/Header";
 import Welcome from "./_components/Welcome";
 import Logo from "./_components/logo/Logo";
 import SkipToMenu from "./_components/skipToMenu/SkipToMenu";
+import Testimonial from "./_components/Testimonial";
 
 export default function Home() {
 
@@ -22,15 +23,18 @@ export default function Home() {
 
       {/* Left Hand Intro */}
       <Header />
-      <Welcome id="welcome"/>
+      <Welcome />
 
       {/* Contents */}
       <About />
       <Projects />
       <Experience />
       <Contact />
-
+<Testimonial />
     </main>
+    <footer>
+      
+    </footer>
 
 
     </>
