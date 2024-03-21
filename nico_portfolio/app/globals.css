@@ -37,8 +37,11 @@ body {
     margin: 5px;
     text-align: center;
     align-self: center;
+  text-decoration-line: underline;
+
 }
 
 :link:hover {
-  text-decoration-line: underline;
+  text-decoration-style: wavy;
 }
+
