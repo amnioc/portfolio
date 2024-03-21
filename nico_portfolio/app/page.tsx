@@ -16,19 +16,17 @@ export default function Home() {
     </header>
     
     <main className="flex min-h-screen flex-col p-24 bg-slate-200 ">
-      {/* NavBar */}
-      
 
       {/* Left Hand Intro */}
     
-      <Welcome />
+      <Welcome id="about"/>
 
       {/* Contents */}
       <About />
       <Projects />
       <Experience />
       <Contact />
-<Testimonial />
+      <Testimonial />
     </main>
     <footer>
       
