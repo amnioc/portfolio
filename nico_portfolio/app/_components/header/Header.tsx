@@ -1,6 +1,7 @@
 export default function Header() {
     return (
-        <h1 className="text-blue-900 text-5xl object-left">Nico Dhillon</h1>
+        <h1 className="text-web-orange-200 sm:text-4xl text-2xl font-bold  items-center flex">Nico Dhillon</h1>
+
     );
   }
   
