@@ -1,5 +1,5 @@
 export default function Projects() {
     return (
-        <h3>Projects</h3>
+        <h3 id="projects">Projects</h3>
     )
 }
