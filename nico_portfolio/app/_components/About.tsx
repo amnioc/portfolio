@@ -1,8 +1,12 @@
 export default function About() {
     return (
-        <>
-        <h3 id="about">About Me</h3>
-        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget condimentum diam. Nullam a varius nisl. Fusce cursus finibus turpis a varius. Nulla porttitor, sem quis bibendum condimentum, tortor ligula posuere sem, at malesuada lacus tortor blandit augue. Maecenas volutpat aliquet lacus suscipit hendrerit. Nam et est libero. Sed consequat justo odio, at vulputate augue dapibus sed. In auctor consequat mi, in mollis odio aliquam ut. Nunc sed hendrerit tortor. Curabitur aliquam, leo in volutpat molestie, neque tortor tempor elit, sit amet ultrices tellus massa non massa. Aliquam a orci sit amet purus molestie efficitur quis at tellus. Aenean ut nisl in nisi ullamcorper vehicula ac a elit. Curabitur a posuere magna. Phasellus tempor pretium elit vitae dictum. Praesent vel elit vel quam molestie interdum eu eu lorem. Proin egestas, eros a condimentum efficitur, odio ex rutrum urna, at sodales enim orci at elit. Donec et erat ligula. Ut pharetra lorem eget molestie laoreet. Vivamus viverra, sapien scelerisque commodo aliquet, erat eros efficitur odio, sit amet efficitur elit mauris ut neque. Nunc scelerisque, dolor a ullamcorper finibus, ante magna euismod augue, ac dictum erat purus eu augue. Curabitur pharetra suscipit sapien vel porttitor. Duis erat tortor, malesuada tempor scelerisque sed, consectetur in risus. Pellentesque tempor risus et mi porttitor euismod. Aenean consequat faucibus dolor eget luctus. Morbi neque ipsum, fermentum in erat sed, congue pretium sem. Praesent eu mauris mauris. Proin at dictum risus."</h4>
-        </>
+        <section id="about" className="border-2 border-web-orange-600 text-purple-heart-900 p-10 mt-10 place-self-stretch">
+        <h3 className="text-2xl">In 2023 I made a choice...</h3>
+        ... to pursue my passion for learning and tech - graduating from Northcoders Software Development Bootcamp in May 2023.
+         <br></br>   With over 10 years of experience in customer-focused roles, with a focus on marginalised communities, I am passionate about the inclusion of <i>all</i> users.
+         <br></br>  I aim to champion an user-first approach to software development, that understands accessibility reaches beyond screen-reader compatability.
+        <aside className="mt-5"><a href="https://northcoders.com/" target="_blank" rel="noopener noreferrer" className="">Click to learn more about Northcoders</a></aside>
+        </section>
+
     )
 }
