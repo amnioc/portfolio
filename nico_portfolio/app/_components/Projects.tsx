@@ -1,11 +1,10 @@
 export default function Projects() {
   return (
-    <section
-      id="projects"
+    <section id="projects"
       className="border-2 border-web-orange-600 text-purple-heart-900 p-10 mt-10 place-self-stretch"
     >
       <ul>
-        <h3 className="text-2xl">Projects</h3>
+        <h3 className="text-2xl" >Projects</h3>
         <li className="project">
           <h4>Project 1</h4>
           <a href="www.google.com">View Project 1 Here</a>
