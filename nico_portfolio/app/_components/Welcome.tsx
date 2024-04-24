@@ -14,7 +14,7 @@ export default function Welcome() {
         className="rounded-2xl p-3"
       />
       <aside className="p-5">
-        <h2 className=" text-purple-800 font-extrabold text-2xl">Hi,</h2>
+        <h2 className=" text-purple-heart-700 font-extrabold text-2xl">Hi,</h2>
         I'm a Junior Front End Developer with a passion for inclusion of{" "}
         <i className="text-l">all</i> users.
         <aside className="text-purple-heart-800 decoration-2">
