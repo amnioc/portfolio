@@ -6,7 +6,6 @@ import Experience from "./_components/Experience";
 import Projects from "./_components/Projects";
 import Welcome from "./_components/Welcome";
 import Menu from "./_components/menu/Menu";
-import Testimonial from "./_components/Testimonial";
 import React from "react";
 
 
@@ -29,7 +28,6 @@ export default function Home() {
       <Projects />
       <Experience />
       <Contact/>
-      <Testimonial />
     </main>
     <footer>
       

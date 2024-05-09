@@ -21,7 +21,6 @@ export default function Menu () {
                 <Link href="#about">About</Link>
                 <Link href="#projects">Projects</Link>
                 <Link href="#experience">Experience</Link>
-                <Link href="#testimonials">Testimonials</Link>
                 <Link href="#contact">Contact</Link>
                 <Link href="#download">Download CV</Link>
             </section>
